@@ -1,0 +1,25 @@
+.view {
+    padding: 15px;
+    flex-grow: 1;
+}
+.view p {
+    margin-bottom: 10px;
+}
+.switcher {
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+}
+.case__table {
+    border-right: 1px solid black;
+    background-color: white;
+}
+.switcher div{
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.switcher__active {
+    background-color:gray;
+}
